@@ -1,0 +1,57 @@
+body {
+  font-family: arial;
+  background-color: white;
+  color: gray;
+}
+
+nav {
+  display: flex;
+  background-color: dodgerBlue;
+  color: white;
+  padding: 0 1rem;
+  justify-content: space-between;
+  padding: 0.5rem 10rem 0.5rem 1rem;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 1.5rem;
+}
+
+.nav-users {
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: white;
+}
+
+.form {
+  border: 1px solid black;
+  width: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.form .input {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#nameFirst,
+#nameLast {
+  width: 70%;
+}
+
+#departmentSelect {
+  width: 71.5%;
+}
