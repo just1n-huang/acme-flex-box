@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: arial;
   background-color: white;
@@ -49,19 +53,16 @@ nav a:visited {
 }
 
 #nameFirst,
-#nameLast {
+#nameLast,
+#departmentSelect {
   width: 70%;
 }
 
-#departmentSelect {
-  width: 71.5%;
-}
-
-.userCards {
+#userCards div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 
 .card {
@@ -69,7 +70,7 @@ nav a:visited {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  flex: 0 0 25%;
+  flex-basis: calc(33% - 2rem);
   align-items: center;
   text-align: center;
   padding: 0 1rem;
