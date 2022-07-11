@@ -26,25 +26,27 @@
       <div><h2>Create A User</h2></div>
       <div class="input">
         <label for="nameFirst">First Name</label>
-        <input type="text" id="nameFirst" name="nameFirst" />
+        <input type="text" id="nameFirst" name="nameFirst" value="Jane" />
       </div>
       <div class="input">
         <label for="nameLast">Last Name</label>
-        <input type="text" id="nameLast" name="nameLast" />
+        <input type="text" id="nameLast" name="nameLast" value="Doe" />
       </div>
       <div class="input">
         <label for="departmentSelect">Department</label>
         <select name="department" id="departmentSelect">
           <option value="">-- None --</option>
-          <option value="dog">Dog</option>
-          <option value="cat">Cat</option>
-          <option value="hamster">Hamster</option>
-          <option value="parrot">Parrot</option>
-          <option value="spider">Spider</option>
-          <option value="goldfish">Goldfish</option>
+          <option value="/">Chemistry</option>
+          <option value="/">Earth Science</option>
+          <option value="/">Physics</option>
+          <option value="/">Civil Engineering</option>
+          <option value="/">Mechanical Engineering</option>
+          <option value="/">Computer Science</option>
         </select>
       </div>
-      <div class="buttons"><button>Clear</button> <button>Save</button></div>
+      <div class="buttons">
+        <button>Clear</button> <button id="saveButton">Save</button>
+      </div>
     </div>
     <br />
     <!-- User Cards -->

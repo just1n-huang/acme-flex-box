@@ -52,6 +52,12 @@ nav a:visited {
   text-align: center;
 }
 
+#saveButton {
+  background-color: dodgerBlue;
+  color: white;
+  border: solid 1px black;
+}
+
 #nameFirst,
 #nameLast,
 #departmentSelect {
