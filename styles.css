@@ -46,7 +46,7 @@ nav a:visited {
   border-radius: 3px;
 }
 
-.form .input {
+.form .field {
   display: flex;
   justify-content: space-between;
   padding-bottom: 1rem;
@@ -97,5 +97,38 @@ nav a:visited {
   nav div {
     display: flex;
     padding: 5px;
+  }
+
+  .form {
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 3px;
+  }
+
+  .form .field {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #clearButton {
+    background-color: white;
+    border: none;
+  }
+
+  input,
+  select {
+    border: none;
+    appearance: none;
+    width: 90%;
   }
 }

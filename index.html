@@ -24,15 +24,15 @@
     <!-- Create a user form -->
     <div class="form">
       <div><h2>Create A User</h2></div>
-      <div class="input">
+      <div class="field">
         <label for="nameFirst">First Name</label>
         <input type="text" id="nameFirst" name="nameFirst" value="Jane" />
       </div>
-      <div class="input">
+      <div class="field">
         <label for="nameLast">Last Name</label>
         <input type="text" id="nameLast" name="nameLast" value="Doe" />
       </div>
-      <div class="input">
+      <div class="field">
         <label for="departmentSelect">Department</label>
         <select name="department" id="departmentSelect">
           <option value="">-- None --</option>
@@ -45,7 +45,8 @@
         </select>
       </div>
       <div class="buttons">
-        <button>Clear</button> <button id="saveButton">Save</button>
+        <button id="clearButton">Clear</button>
+        <button id="saveButton">Save</button>
       </div>
     </div>
     <br />
