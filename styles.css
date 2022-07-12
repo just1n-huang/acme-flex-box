@@ -103,7 +103,7 @@ nav a:visited {
     border: 1px solid black;
     width: 90%;
     margin: auto;
-    padding: 1rem;
+    padding: 0 1rem 1rem;
     border-radius: 3px;
   }
 
